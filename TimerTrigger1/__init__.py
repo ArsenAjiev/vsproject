@@ -20,6 +20,8 @@ def main(mytimer: func.TimerRequest) -> None:
     # Сохранил данные в Dataframe
     df = pd.DataFrame(data=data_list, columns=['new_id', 'new_name'])
 
+    print(df)
+
 
 
     #2 Создал подключение к БД
